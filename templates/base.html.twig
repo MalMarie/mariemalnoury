@@ -2,8 +2,9 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
-			{% block title %}Marie Malnoury Portfolio
+			{% block title %}Marie Malnoury Portfolio Dev
 			{% endblock %}
 		</title>
 		<link rel="icon" type="image/png" size="196x196" href="./assets/images/icons/Logo_Marie_photo_NEW_WHITE.png">
@@ -21,13 +22,27 @@
 			{% endblock %}
 		{% endblock %}
 	</head>
-	<body class="bg-light">
-		<header class="text-wrap text-center fs-1 fw-bold position-absolute top-0 start-50 translate-middle-x">
+	<body
+		class="container">
+		<header class="m-2 text-center">
 			<h1>
-				Portfolio de Marie MALNOURY,<br>
-				Développeur Web PHP/Symfony
+				Marie MALNOURY Développeur Web PHP | Symfony
 			</h1>
+			<p class="fs-3 fw-light">Ce site est en cours de développement. Merci de votre compréhension.</p>
 		</header>
 		{% block body %}{% endblock %}
+		<footer>
+			<div class="mb-5 text-center position-absolute bottom-0 start-50 translate-middle-x">
+				<a class="" href="https://github.com/MalMarie" alt="Compte GitHub de Marie MALNOURY" target="_blank">
+					<img class="logo-small-xs logo-small-lg logo-to-white" src="./assets/images/icons/Logo_GitHub_BW.png" alt="Logo de GitHub">
+				</a>
+				<a class="" href="https://gitlab.com/MarieMal" alt="Compte GitLab de Marie MALNOURY" target="_blank">
+					<img class="logo-small-xs logo-small-lg logo-to-white" src="./assets/images/icons/Logo_GitLab_color.png" alt="Logo de GitLab">
+				</a>
+				<a class="" href="https://www.linkedin.com/in/marie-malnoury-webdeveloper-videographer/" alt="LinkedIn de Marie MALNOURY" target="_blank">
+					<img class="logo-xs logo-lg" src="./assets/images/icons/Logo_LinkedIn_color.png" alt="Logo de LinkedIn">
+				</a>
+			</div>
+		</footer>
 	</body>
-</html></body></html>
+</html>

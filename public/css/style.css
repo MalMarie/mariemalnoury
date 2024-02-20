@@ -1,17 +1,48 @@
+@media (max-width: 576px) {
+    .logo-xs {
+        width: 15%;
+    }
+
+    .logo-small-xs {
+        width: 30%;
+    }
+
+    .logo-obeer {
+        width: 25%;
+    }
+}
+
+@media (min-width: 577px) {
+    .logo-lg {
+        width: 5%;
+    }
+
+    .logo-small-lg {
+        width: 11%;
+    }
+
+    .logo-obeer {
+        width: 17%;
+    }
+}
 body {
     background: linear-gradient(#031520, #063553);
     background-attachment: fixed;
-    color : #FFFFFF;
+    color: #FFFFFF;
 }
 
-a{
+a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: x-large;
-    font-weight:bold;
+    font-weight: bold;
     padding: 0.5em;
 }
 
 a:hover {
-    color:#305a73;
+    color: #305a73;
+}
+
+.logo-to-white {
+    backdrop-filter: invert(100%);
 }

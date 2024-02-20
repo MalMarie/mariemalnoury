@@ -4,11 +4,15 @@
 {% endblock %}
 
 {% block body %}
-	<div class="position-absolute top-50 start-50 translate-middle">
-		<p class="fs-3">Ce site est en cours de développement. Merci de votre compréhension.</p>
-		<div class="position-absolute top-70 start-50 translate-middle">
-			<a href="https://www.linkedin.com/in/marie-malnoury-webdeveloper-videographer/" alt="LinkedIn de Marie MALNOURY">Mon LinkedIn</a>
-			<a href="https://malmarie.github.io/" alt="Page GitHub de Marie MALNOURY">Ma page GitHub</a>
-		</div>
+	<div class="text-center pt-5 d-flex container-sm row row-cols-sm-1 justify-content-center container-lg row row-cols-lg-2 align-items-center">
+		<a class="" href="https://malmarie.github.io/" alt="Page GitHub de Marie MALNOURY" target="_blank">
+			<img class="logo-small-xs logo-small-lg logo-to-white" src="./assets/images/icons/Logo_GitHub_BW_cat.png" alt="Logo de GitHub">
+			Page GitHub
+		</a>
+		<a class="text-break text-wrap p-3 col-sm-2 col-lg" href="https://obeer.mariemalnoury.fr/" alt="O’Beer, site de recencement de brasseries françaises" target="_blank">
+			<img
+			class="logo-xs logo-lg logo-obeer" src="./assets/images/icons/Logo_O-Beer.png" alt="Logo de O’Beer">
+			Projet de fin de formation à O'Clock
+		</a>
 	</div>
 {% endblock %}
