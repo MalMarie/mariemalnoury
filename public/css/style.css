@@ -1,34 +1,63 @@
 @media (max-width: 576px) {
     .logo-xs {
-        width: 15%;
-    }
-
-    .logo-small-xs {
-        width: 30%;
-    }
-
-    .logo-obeer {
         width: 25%;
+    }
+
+    .logo-xs-social {
+        width: 17%;
+    }
+
+    .logo-mm-xs {
+        display: none;
     }
 }
 
 @media (min-width: 577px) {
     .logo-lg {
+        width: 22%;
+    }
+
+    .logo-lg-social {
         width: 5%;
     }
 
-    .logo-small-lg {
-        width: 11%;
+    .logo-mm-lg {
+        width: 5%;
     }
 
-    .logo-obeer {
-        width: 17%;
+    #presentation,
+    #projects {
+        width: 45vw;
+        margin: auto;
+    }
+
+    #presentation {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .presentation-text {
+        width: 50%;
     }
 }
+
 body {
+    height: 100vh;
     background: linear-gradient(#031520, #063553);
     background-attachment: fixed;
     color: #FFFFFF;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+p {
+    margin: 0;
+    padding: 0.5em;
+    font-size: larger;
 }
 
 a {
@@ -37,10 +66,16 @@ a {
     font-size: x-large;
     font-weight: bold;
     padding: 0.5em;
+    transition: 200ms;
 }
 
 a:hover {
     color: #305a73;
+    transition: 200ms;
+}
+
+.photo-me {
+    width: 280px;
 }
 
 .logo-to-white {
